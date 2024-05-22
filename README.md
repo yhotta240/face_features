@@ -2,6 +2,13 @@
 
 このリポジトリは、顔検出および特徴量抽出のための様々な Python スクリプトを含んでいます。各スクリプトは異なるアルゴリズムや手法を使用しており、簡単に実行できるようになっています。
 
+### Google Colab での実行
+このリポジトリのコードを Google Colab 上で実行することも可能です。
+| Colab name | Colab Page |
+| --- | --- |
+face_features.ipynb | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yhotta240/face_features/blob/main/face_features.ipynb)  
+
+
 ## リポジトリのクローン
 
 まず、リポジトリをクローンします：
@@ -74,8 +81,7 @@ python run.py
 
 例：
 
-```markdown
-コードをコピーする
+```bash
 1. face_canny_edge.py
 2. face_corner.py
 3. face_detection.py
