@@ -1,0 +1,15 @@
+# 特定のディレクトリを無視
+.vscode
+__pycache__
+
+# images ディレクトリ内の全てのファイルを無視
+images/*
+
+# 例外的に特定のファイルを含める
+!images/sample.jpg
+!images/sample.png
+
+# output ディレクトリの特定のファイルを無視
+output/*
+output/*.png
+output/*.jpg
